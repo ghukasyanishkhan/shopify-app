@@ -1,0 +1,84 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "7ca37d96f6c488f52728979cbd6fc189"
+name = "QR-generation-app"
+handle = "qr-generation-app"
+application_url = "https://reproduction-periodic-evaluating-movies.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "korneprinttest.myshopify.com"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://example.com/api/auth",
+  "https://hey-hide-framework-someone.trycloudflare.com/auth/callback",
+  "https://hey-hide-framework-someone.trycloudflare.com/auth/shopify/callback",
+  "https://hey-hide-framework-someone.trycloudflare.com/api/auth/callback",
+  "https://multiple-restored-jam-corners.trycloudflare.com/auth/callback",
+  "https://multiple-restored-jam-corners.trycloudflare.com/auth/shopify/callback",
+  "https://multiple-restored-jam-corners.trycloudflare.com/api/auth/callback",
+  "https://draws-reggae-cc-productions.trycloudflare.com/auth/callback",
+  "https://draws-reggae-cc-productions.trycloudflare.com/auth/shopify/callback",
+  "https://draws-reggae-cc-productions.trycloudflare.com/api/auth/callback",
+  "https://vehicle-roles-output-atmosphere.trycloudflare.com/auth/callback",
+  "https://vehicle-roles-output-atmosphere.trycloudflare.com/auth/shopify/callback",
+  "https://vehicle-roles-output-atmosphere.trycloudflare.com/api/auth/callback",
+  "https://duty-votes-tb-violation.trycloudflare.com/auth/callback",
+  "https://duty-votes-tb-violation.trycloudflare.com/auth/shopify/callback",
+  "https://duty-votes-tb-violation.trycloudflare.com/api/auth/callback",
+  "https://assumption-cartridges-flexible-gnu.trycloudflare.com/auth/callback",
+  "https://assumption-cartridges-flexible-gnu.trycloudflare.com/auth/shopify/callback",
+  "https://assumption-cartridges-flexible-gnu.trycloudflare.com/api/auth/callback",
+  "https://ceiling-farmer-uses-manager.trycloudflare.com/auth/callback",
+  "https://ceiling-farmer-uses-manager.trycloudflare.com/auth/shopify/callback",
+  "https://ceiling-farmer-uses-manager.trycloudflare.com/api/auth/callback",
+  "https://fotos-abraham-cant-squad.trycloudflare.com/auth/callback",
+  "https://fotos-abraham-cant-squad.trycloudflare.com/auth/shopify/callback",
+  "https://fotos-abraham-cant-squad.trycloudflare.com/api/auth/callback",
+  "https://care-voip-viewed-icons.trycloudflare.com/auth/callback",
+  "https://care-voip-viewed-icons.trycloudflare.com/auth/shopify/callback",
+  "https://care-voip-viewed-icons.trycloudflare.com/api/auth/callback",
+  "https://promotes-mountain-licensed-cn.trycloudflare.com/auth/callback",
+  "https://promotes-mountain-licensed-cn.trycloudflare.com/auth/shopify/callback",
+  "https://promotes-mountain-licensed-cn.trycloudflare.com/api/auth/callback",
+  "https://educational-poverty-nodes-plot.trycloudflare.com/auth/callback",
+  "https://educational-poverty-nodes-plot.trycloudflare.com/auth/shopify/callback",
+  "https://educational-poverty-nodes-plot.trycloudflare.com/api/auth/callback",
+  "https://tb-volvo-mazda-face.trycloudflare.com/auth/callback",
+  "https://tb-volvo-mazda-face.trycloudflare.com/auth/shopify/callback",
+  "https://tb-volvo-mazda-face.trycloudflare.com/api/auth/callback",
+  "https://gear-reseller-unlimited-relate.trycloudflare.com/auth/callback",
+  "https://gear-reseller-unlimited-relate.trycloudflare.com/auth/shopify/callback",
+  "https://gear-reseller-unlimited-relate.trycloudflare.com/api/auth/callback",
+  "https://peak-metallic-pi-ocean.trycloudflare.com/auth/callback",
+  "https://peak-metallic-pi-ocean.trycloudflare.com/auth/shopify/callback",
+  "https://peak-metallic-pi-ocean.trycloudflare.com/api/auth/callback",
+  "https://reproduce-lafayette-allocated-feedback.trycloudflare.com/auth/callback",
+  "https://reproduce-lafayette-allocated-feedback.trycloudflare.com/auth/shopify/callback",
+  "https://reproduce-lafayette-allocated-feedback.trycloudflare.com/api/auth/callback",
+  "https://refers-anything-avatar-visitor.trycloudflare.com/auth/callback",
+  "https://refers-anything-avatar-visitor.trycloudflare.com/auth/shopify/callback",
+  "https://refers-anything-avatar-visitor.trycloudflare.com/api/auth/callback",
+  "https://seeking-fabulous-jade-arising.trycloudflare.com/auth/callback",
+  "https://seeking-fabulous-jade-arising.trycloudflare.com/auth/shopify/callback",
+  "https://seeking-fabulous-jade-arising.trycloudflare.com/api/auth/callback",
+  "https://reproduction-periodic-evaluating-movies.trycloudflare.com/auth/callback",
+  "https://reproduction-periodic-evaluating-movies.trycloudflare.com/auth/shopify/callback",
+  "https://reproduction-periodic-evaluating-movies.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-10"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks/app/uninstalled"
+
+[pos]
+embedded = false
